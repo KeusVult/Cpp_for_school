@@ -4,6 +4,7 @@
 using namespace std;
 
 bool isValidPesel(const string &pesel){
+    
     if(pesel.length() != 11) return false;
     
     int wagi[] = {1,3,7,9,1,3,7,9,1,3};
